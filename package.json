@@ -1,0 +1,31 @@
+{
+  "name": "rotating-stream",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib",
+  "scripts": {
+    "lint": "eslint lib test",
+    "test": "npm run lint && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinQu/rotating-stream.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobinQu/rotating-stream/issues"
+  },
+  "homepage": "https://github.com/RobinQu/rotating-stream#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.11.1",
+    "mocha": "^2.5.3",
+    "rcfiles": "^1.1.2",
+    "sinon": "^1.17.4"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "moment": "^2.13.0"
+  }
+}
